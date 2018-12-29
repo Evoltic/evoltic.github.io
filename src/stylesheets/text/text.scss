@@ -1,0 +1,39 @@
+.text {
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+
+	&._light-gray {
+		color: rgba(0,0,0,0.6);
+	}
+
+	&._dark-gray {
+		color: #354158;
+	}
+
+	&._orange {
+		color: #FF6932;
+	}
+
+	&._center{
+		text-align: center;
+	}
+
+	&._right {
+		text-align: right;
+	}
+
+	&._light {
+		font-weight: 300;
+	}
+
+	&._regular {
+		font-weight: 400;
+	}
+
+	&._medium {
+		font-weight: 500;
+	}
+}
+
+
