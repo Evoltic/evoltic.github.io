@@ -1,0 +1,11 @@
+.box._project {
+  .content {
+    & > .title {
+      text-transform: uppercase;
+    }
+  }
+
+  .gallery {
+
+  }
+}

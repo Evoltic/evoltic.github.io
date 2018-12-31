@@ -1,0 +1,23 @@
+.section._about {
+  position: relative;
+  box-shadow: 0 -3px 3px rgba(0,0,0,0.05);
+
+  .wrapper._shrink {
+    & > .title {
+      margin-bottom: 3.6rem;
+    }
+
+    .content {
+
+      .image {
+        height: 18rem;
+        width: 18rem;
+        border-radius: 50%;
+      }
+
+      .text {
+        padding-left: 2rem;
+      }
+    }
+  }
+}

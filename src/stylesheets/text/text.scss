@@ -1,7 +1,9 @@
 .text {
+	margin-bottom: .5em;
+	font-family: 'Fira Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	line-height: normal;
+	line-height: 1.5;
 
 	&._light-gray {
 		color: rgba(0,0,0,0.6);
@@ -33,6 +35,10 @@
 
 	&._medium {
 		font-weight: 500;
+	}
+
+	&._bold {
+		font-weight: 700;
 	}
 }
 

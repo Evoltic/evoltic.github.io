@@ -1,14 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700');
+
+@import '~reset-css/sass/reset';
 
 @import "stylesheets/section/section";
 @import "stylesheets/section/_preface/section_preface";
+@import "stylesheets/section/_about/section_about";
+@import "stylesheets/section/_projects/section_projects";
+
 @import "stylesheets/wrapper/wrapper";
 @import "stylesheets/flex/flex";
 @import "stylesheets/font/font";
 @import "stylesheets/text/text";
 @import "stylesheets/title/title";
 
+@import "stylesheets/box/box";
+@import "stylesheets/box/_project/box_project";
+
 html {
   font-size: 10px;
   font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
 }
