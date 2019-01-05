@@ -11,4 +11,24 @@
   .wrapper._main {
 
   }
+
+  .box._project {
+    margin-bottom: 3rem;
+
+    .content {
+      &__top {
+
+      }
+
+      &__middle {
+
+      }
+    }
+
+    .gallery {
+      .image {
+        max-width: 500px;
+      }
+    }
+  }
 }
