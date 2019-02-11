@@ -1,31 +1,8 @@
-.section._about {
+.section_about {
   position: relative;
-  box-shadow: 0 -3px 3px rgba(0,0,0,0.05);
+  box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.05);
 
-  .wrapper._shrink {
-    & > .title {
-      margin-bottom: 3.6rem;
-    }
-
-    .content {
-      height: 18rem;
-
-      .image {
-        height: 100%;
-        border-radius: 1%;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-      }
-
-      .text {
-        margin-left: 2rem;
-        margin-right: 2rem;
-        padding: 2rem;
-        height: 100%;
-        box-sizing: border-box;
-        background: #fff;
-        border-radius: 1%;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.14);
-      }
-    }
+  .headline {
+    margin-bottom: 3.6rem;
   }
 }
