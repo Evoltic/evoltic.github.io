@@ -1,0 +1,8 @@
+.section_open-source {
+  margin-bottom: 25rem;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+
+  @media screen and (max-width: 773px) {
+    margin-bottom: 35rem;
+  }
+}

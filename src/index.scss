@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700');
+
+@import '~reset-css/sass/reset';
+
+@import 'stylesheets/section/section';
+@import 'stylesheets/section/_preface/section_preface';
+@import 'stylesheets/section/_about/section_about';
+@import 'stylesheets/section/_projects/section_projects';
+@import 'stylesheets/section/_contacts/section_contacts';
+@import 'stylesheets/section/_open-source/section_open-source';
+
+@import 'stylesheets/card/_theme_about/card_theme_about';
+@import 'stylesheets/card/_theme_project/card_theme_project';
+@import 'stylesheets/card/_theme_open-source/card_theme_open-source';
+@import 'stylesheets/card/_theme_contacts/card_theme_contacts';
+
+@import 'stylesheets/headline/headline';
+
+@import 'stylesheets/wrapper/_section-content/wrapper_section-content';
+
+@import 'stylesheets/text/text';
+@import 'stylesheets/title/title';
+
+html {
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  background-color: #fff;
+}
