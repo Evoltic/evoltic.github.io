@@ -9,4 +9,10 @@
   .headline {
     font-size: 5rem;
   }
+
+  @media screen and (max-width: 1200px) {
+    .headline {
+      font-size: 3rem;
+    }
+  }
 }
