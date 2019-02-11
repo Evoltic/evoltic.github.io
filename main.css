@@ -259,6 +259,8 @@ table {
     color: #000; }
   .card_theme_contacts .card__link-description {
     display: inline; }
+    .card_theme_contacts .card__link-description:after {
+      content: ' '; }
   .card_theme_contacts .card__link {
     display: inline;
     text-decoration: none;
