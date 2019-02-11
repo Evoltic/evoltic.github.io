@@ -1,47 +1,6 @@
 .title {
-	margin-bottom: .7em;
-	font-weight: 700;
-	line-height: normal;
-	color: #354158;
-
-	&._orange {
-		color: #FF6932;
-	}
-
-	&._white {
-		color: #fff;
-	}
-
-
-	&._center {
-		text-align: center;
-	}
-
-	&._light {
-		font-weight: 300;
-	}
-
-	&._regular {
-		font-weight: 400;
-	}
-
-	&._medium {
-		font-weight: 500;
-	}
-
-	&._bottom-line {
-		position: relative;
-
-		&:after {
-			content: '';
-			position: absolute;
-			left: calc(50% - 1.4rem);
-			bottom: -0.9rem;
-			background: #FF6932;
-			width: 2.8rem;
-			height: 0.4rem;
-			border-radius: 4.5px;
-		}
-	}
+  margin-bottom: 0.7em;
+  font-weight: 700;
+  line-height: normal;
+  color: #354158;
 }
-
