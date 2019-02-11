@@ -16,6 +16,10 @@
 
   .card__link-description {
     display: inline;
+
+    &:after {
+      content: ' ';
+    }
   }
 
   .card__link {
