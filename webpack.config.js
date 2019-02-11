@@ -1,12 +1,14 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const outputDirectory = 'dist';
 
 module.exports = {
 		entry: [
-				'./src/index.js'
+				'./src/index.js',
+				'./src/index.scss',
 		],
 		output: {
 				path: path.join(__dirname, outputDirectory),
@@ -53,6 +55,14 @@ module.exports = {
 						{
 								test: /\.(eot|woff|woff2|ttf)$/,
 								loader: 'url-loader?limit=30000&name=[name]-[hash].[ext]'
+						},
+						{
+							test: /\.s?css$/,
+							use: [
+								MiniCssExtractPlugin.loader,
+								"css-loader",
+								"sass-loader"
+							]
 						}
 				]
 		},
@@ -62,6 +72,10 @@ module.exports = {
 		},
 		plugins: [
 				new CleanWebpackPlugin([outputDirectory]),
+				new MiniCssExtractPlugin({
+					filename: "[name].css",
+					chunkFilename: "[id].css"
+				}),
 				new HtmlWebpackPlugin({
 					template: 'src/index.html',
 					favicon: './src/favicon.png'
