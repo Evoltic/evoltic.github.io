@@ -7,6 +7,8 @@
 @import 'stylesheets/section/_preface/section_preface';
 @import 'stylesheets/section/_about/section_about';
 @import 'stylesheets/section/_projects/section_projects';
+@import 'stylesheets/section/_contacts/section_contacts';
+@import 'stylesheets/section/_open-source/section_open-source';
 
 @import 'stylesheets/card/_theme_about/card_theme_about';
 @import 'stylesheets/card/_theme_project/card_theme_project';
@@ -27,4 +29,8 @@ html {
 
 body {
   margin: 0;
+}
+
+main {
+  background-color: #fff;
 }
