@@ -1,0 +1,27 @@
+@import '../../title/title';
+@import '../../text/text';
+
+.card_theme_open-source {
+  .card__title {
+    @extend .text;
+    margin-bottom: 3rem !important;
+    max-width: 60rem;
+    font-size: 2rem;
+  }
+
+  .card__list {
+    margin-bottom: 2rem;
+  }
+
+  .card__list-title {
+    @extend .title;
+    font-size: 2.4rem;
+  }
+
+  .card__list-item {
+    @extend .text;
+    display: block;
+    font-size: 1.8rem;
+    color: #000;
+  }
+}
